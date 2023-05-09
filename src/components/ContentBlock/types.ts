@@ -5,6 +5,6 @@ export interface ContentBlockProps {
   section?: any;
   button?: any;
   t?: any;
-  id: string;
+  id?: string;
   type?: string;
 }

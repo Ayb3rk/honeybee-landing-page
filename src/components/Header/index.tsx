@@ -36,21 +36,24 @@ export default function Header() {
     };
     return (
       <>
+        <CustomNavLinkSmall onClick={() => scrollTo("home")}>
+          <Span>Home</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>About</Span>
+          <Span>Problem</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>Mission</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("features")}>
+          <Span>Features</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>Product</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("team")}>
+          <Span>Team</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => window.open("https://honeybeetracker.ceng.metu.edu.tr", "_blank")}
         >
           <Span>
-            <Button>Contact</Button>
+            <Button>Project</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -62,7 +65,7 @@ export default function Header() {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="202px" height="128px" />
+            <SvgIcon src="logo.svg" width="100px" height="100px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

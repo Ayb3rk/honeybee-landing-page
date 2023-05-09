@@ -1,0 +1,34 @@
+{
+  "title": "Team",
+  "section": [
+    {
+      "title": "Hande Alemdar",
+      "content": "Supervisor",
+      "icon": "tracking.svg"
+    },
+    {
+      "title": "Ayberk Gökmen",
+      "content": "Team Member",
+      "icon": "tagging.svg"
+    },
+    {
+      "title": "Berke Can Ünlü",
+      "content": "Team Member",
+      "icon": "visualization.svg"
+    },
+    {
+      "title": "Buğra Burak Altıntaş",
+      "content": "Team Member",
+      "icon": "comparison.svg"
+    },{
+      "title": "Muhammed Tayyip Öztürk",
+      "content": "Team Member",
+      "icon": "tracking.svg"
+    },
+    {
+      "title": "Mehmet Yanık",
+      "content": "Team Member",
+      "icon": "tagging.svg"
+    }
+  ]
+}

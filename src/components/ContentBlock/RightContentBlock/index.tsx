@@ -41,7 +41,7 @@ export default function RightContentBlock({
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={() => item.url ? window.open(item.url, "_blank") : scrollTo("about")}
                       >
                         {item.title}
                       </Button>

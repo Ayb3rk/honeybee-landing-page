@@ -1,0 +1,26 @@
+{
+    "title": "Features",
+    "section": [
+      {
+        "title": "Tracking",
+        "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+        "icon": "tracking.svg"
+      },
+      {
+        "title": "Tagging",
+        "content": "Styled Components gives you total control over your components.",
+        "icon": "tagging.svg"
+      },
+      {
+        "title": "Visualization",
+        "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+        "icon": "visualization.svg"
+      },
+      {
+        "title": "Comparison",
+        "content": "Styled Components gives you total control over your components.",
+        "icon": "comparison.svg"
+      }
+    ]
+  }
+  

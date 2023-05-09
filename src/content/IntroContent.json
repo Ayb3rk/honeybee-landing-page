@@ -1,13 +1,10 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "One app honeybee hive tracking tool",
+  "text": "We are a part of ROBOROYALE project to create a tracking tool with performance measurements and visualization tools.",
   "button": [
     {
-      "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
+      "title": "ROBOROYALE",
+      "url": "https://roboroyale.eu/"
     }
   ]
 }

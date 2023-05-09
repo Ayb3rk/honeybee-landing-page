@@ -34,8 +34,4 @@ export const ButtonWrapper = styled("div")`
   @media screen and (min-width: 1024px) {
     max-width: 80%;
   }
-
-  button:last-child {
-    margin-left: 20px;
-  }
 `;
