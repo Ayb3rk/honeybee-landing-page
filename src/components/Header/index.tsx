@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Row, Col, Drawer } from "antd";
-import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
@@ -16,7 +15,7 @@ import {
   Span,
 } from "./styles";
 
-const Header = ({ t }: any) => {
+export default function Header() {
   const [visible, setVisibility] = useState(false);
 
   const showDrawer = () => {
@@ -38,20 +37,20 @@ const Header = ({ t }: any) => {
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+          <Span>About</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+          <Span>Mission</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>Product</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button>Contact</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -89,5 +88,3 @@ const Header = ({ t }: any) => {
     </HeaderSection>
   );
 };
-
-export default withTranslation()(Header);

@@ -1,5 +1,4 @@
 import { Row, Col } from "antd";
-import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
 import { Button } from "../../../common/Button";
 import { ContentBlockProps } from "../types";
@@ -11,14 +10,15 @@ import {
   ButtonWrapper,
 } from "./styles";
 
-const RightBlock = ({
+
+
+export default function RightContentBlock({
   title,
   content,
   button,
   icon,
-  t,
   id,
-}: ContentBlockProps) => {
+}: ContentBlockProps) {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -31,8 +31,8 @@ const RightBlock = ({
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              <h6>{title}</h6>
+              <Content>{content}</Content>
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
@@ -43,7 +43,7 @@ const RightBlock = ({
                         fixedWidth={true}
                         onClick={() => scrollTo("about")}
                       >
-                        {t(item.title)}
+                        {item.title}
                       </Button>
                     );
                   })}
@@ -58,5 +58,3 @@ const RightBlock = ({
     </RightBlockContainer>
   );
 };
-
-export default withTranslation()(RightBlock);
