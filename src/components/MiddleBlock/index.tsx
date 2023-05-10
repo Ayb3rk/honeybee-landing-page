@@ -1,5 +1,4 @@
 import { Row, Col } from "antd";
-import { withTranslation } from "react-i18next";
 import { Slide, SlideProps } from "react-awesome-reveal";
 import { MiddleBlockSection, MinTitle, MinPara, } from "./styles";
 import { SvgIcon } from "../../common/SvgIcon";
@@ -14,7 +13,7 @@ interface MiddleBlockProps {
   t?: any;
 }
 
-const MiddleBlock = ({ title, section, direction}: MiddleBlockProps) => {
+export default function MiddleBlock ({ title, section, direction}: MiddleBlockProps) {
 
   return (
     <MiddleBlockSection>
@@ -41,5 +40,3 @@ const MiddleBlock = ({ title, section, direction}: MiddleBlockProps) => {
     </MiddleBlockSection>
   );
 };
-
-export default withTranslation()(MiddleBlock);
