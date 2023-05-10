@@ -4,31 +4,37 @@
     {
       "title": "Hande Alemdar",
       "content": "Supervisor",
-      "icon": "tracking.svg"
+      "icon": "hande-alemdar.jpg",
+      "size": "140px"
     },
     {
       "title": "Ayberk Gökmen",
-      "content": "Team Member",
-      "icon": "tagging.svg"
+      "content": "Backend/Frontend Developer",
+      "icon": "ayberk-gokmen.jpg",
+      "size": "140px"
     },
     {
       "title": "Berke Can Ünlü",
-      "content": "Team Member",
-      "icon": "visualization.svg"
+      "content": "Computer Vision Developer",
+      "icon": "berkecan.jpeg",
+      "size": "140px"
     },
     {
       "title": "Buğra Burak Altıntaş",
-      "content": "Team Member",
-      "icon": "comparison.svg"
+      "content": "Computer Vision Developer",
+      "icon": "bursin.jpeg",
+      "size": "140px"
     },{
       "title": "Muhammed Tayyip Öztürk",
-      "content": "Team Member",
-      "icon": "tracking.svg"
+      "content": "Backend Developer",
+      "icon": "tayyibo.jpeg",
+      "size": "140px"
     },
     {
       "title": "Mehmet Yanık",
-      "content": "Team Member",
-      "icon": "tagging.svg"
+      "content": "Visualization Tool Developer",
+      "icon": "mehmet-yanik.jpg",
+      "size": "140px"
     }
   ]
 }

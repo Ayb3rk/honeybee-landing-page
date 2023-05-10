@@ -17,11 +17,7 @@ export const Content = styled("p")`
 `;
 
 export const ContentWrapper = styled("div")`
-  max-width: 570px;
-
-  @media only screen and (max-width: 768px) {
-    max-width: 100%;
-  }
+  width: 100%;
 `;
 
 export const ServiceWrapper = styled("div")`
@@ -41,4 +37,7 @@ export const MinTitle = styled("h6")`
 
 export const MinPara = styled("p")`
   font-size: 13px;
+  line-height: 1rem;
+  height: 3rem;
+  padding: 0.5rem 0;
 `;
