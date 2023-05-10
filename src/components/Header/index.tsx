@@ -45,6 +45,9 @@ export default function Header() {
         <CustomNavLinkSmall onClick={() => scrollTo("features")}>
           <Span>Features</Span>
         </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("demo")}>
+          <Span>Demo</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("team")}>
           <Span>Team</Span>
         </CustomNavLinkSmall>

@@ -3,6 +3,7 @@ import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/Features.json";
 import AboutContent from "../../content/AboutContent.json";
 import Team from "../../content/Team.json";
+import Demo from "../../components/Demo";
 
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
@@ -34,11 +35,13 @@ const Home = () => {
         title={MiddleBlockContent.title}
         section={MiddleBlockContent.section}
       />
+      <div id="demo" />
+      <Demo />
       <div id="team" />
       <MiddleBlock
         title={Team.title}
         section={Team.section}
-        direction="left"
+        direction="right"
       />
     </Container>
   );
