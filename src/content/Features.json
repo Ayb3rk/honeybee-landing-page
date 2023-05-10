@@ -1,26 +1,24 @@
 {
     "title": "Features",
-    "section": [
-      {
-        "title": "Tracking",
-        "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-        "icon": "tracking.svg"
-      },
-      {
-        "title": "Tagging",
-        "content": "Styled Components gives you total control over your components.",
-        "icon": "tagging.svg"
-      },
-      {
-        "title": "Visualization",
-        "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-        "icon": "visualization.svg"
-      },
-      {
-        "title": "Comparison",
-        "content": "Styled Components gives you total control over your components.",
-        "icon": "comparison.svg"
-      }
+    "section": [{
+            "title": "Tracking",
+            "content": "We are able to track bees in a hive video by utilizing DeepSORT algorithm along with a YOLOv7 model trained on our bees. We manage to find and track %90 of bees by giving each of them a unique id on a hive video regardless of its duration.",
+            "icon": "tracking.svg"
+        },
+        {
+            "title": "Tagging",
+            "content": "We have a tool to tag individual bees during a video manually to create a ground truth data. This mechanism provide an option to measure tracking performance.  ",
+            "icon": "tagging.svg"
+        },
+        {
+            "title": "Visualization",
+            "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+            "icon": "visualization.svg"
+        },
+        {
+            "title": "Comparison",
+            "content": "We have a comparison tool to measure tracking performance by selecting a bee. Comparison tool uses Dynamic Time Wrapping algorithm to calculate tracking error.",
+            "icon": "comparison.svg"
+        }
     ]
-  }
-  
+}
