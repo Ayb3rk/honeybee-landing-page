@@ -12,7 +12,7 @@
         },
         {
             "title": "Visualization",
-            "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+            "content": "We provide several types of statistics using our tracking data such as bee count, bee density, bee speed, bee distance, bee activity and bee distribution. We also provide a heatmap to visualize bee density on a hive video.", 
             "icon": "visualization.svg"
         },
         {
