@@ -1,6 +1,6 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
-import { Slide } from "react-awesome-reveal";
+import { Slide, SlideProps } from "react-awesome-reveal";
 import { MiddleBlockSection, MinTitle, MinPara, } from "./styles";
 import { SvgIcon } from "../../common/SvgIcon";
 
@@ -8,16 +8,17 @@ interface MiddleBlockProps {
   id?: string;
   title: string;
   content?: string;
+  direction?: SlideProps["direction"];
   button?: string;
   section: any;
   t?: any;
 }
 
-const MiddleBlock = ({ title, section}: MiddleBlockProps) => {
+const MiddleBlock = ({ title, section, direction}: MiddleBlockProps) => {
 
   return (
     <MiddleBlockSection>
-      <Slide direction="up">
+      <Slide direction={direction || "right"}>
         <div>
           <h6>{title}</h6>
           <Row gutter={[32, 32]} align="middle" style={{ marginTop: "5rem" }}>

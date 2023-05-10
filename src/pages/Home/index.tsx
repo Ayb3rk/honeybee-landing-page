@@ -38,6 +38,7 @@ const Home = () => {
       <MiddleBlock
         title={Team.title}
         section={Team.section}
+        direction="left"
       />
     </Container>
   );
